@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imag{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.imag1{
+    width: 500px;
+    height: 500px;
+}

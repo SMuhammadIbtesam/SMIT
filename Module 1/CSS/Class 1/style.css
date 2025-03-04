@@ -1,0 +1,27 @@
+.MacBook{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         /* width: 800px;
+         height: 350px; */
+         background-color: white;
+         text-align: center;
+         color: black;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    color: black;
+}
+p{
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 50px;
+    letter-spacing: ;
+    font-weight: ;
+
+}
+h1{
+    text-decoration: underline;
+    color: rgb(12, 120, 228);
+    text-shadow: 20px 2px 30px rgba(14, 21, 228, 0.6);
+
+}

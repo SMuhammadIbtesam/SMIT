@@ -1,0 +1,75 @@
+.pcard{
+      /* display: inline-block; */
+      margin-left: 180px;
+
+}
+.content{
+    border: 2px solid black;
+    width: 280px;
+    height:380px ;
+    background-color: white;
+    display: inline-block;
+    margin: 20px 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 2px black;
+    transition: 1.2s;
+}
+img{
+    border: 1px solid black;
+    width: 150px; 
+    height: 150px;
+    margin: 10px 50px 10px 60px;
+    border-radius: 10px;
+    transition: 1.2 ease all;
+}
+h1{
+    font-size: large;
+    text-align: center;
+    text-decoration:underline;
+    transition: 1.2s;
+}
+p{
+    font-size: small;
+    text-align: center;
+}
+h3{
+    font-size: larger;
+    text-align: center;
+}
+button{
+    background-color: darkkhaki;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: small;
+    font-style: oblique;
+    transition: 1.2S ease all;
+}
+button:hover{
+          background-color: navy;
+          border-radius: 20px;
+          font-style: normal;
+}
+/* img:hover{
+          box-shadow: 10px;
+} */
+h1:hover{
+    font-size: larger;
+    font-weight: bold;
+     background-color:#A294F9;
+     color: black;
+}
+.content:hover{
+             background-color: #CDC1FF;
+             cursor: pointer;
+             box-shadow: 5px 5px 5px 10px #E5D9F2;
+}
+h3:hover{
+    background-color: #A294F9;
+    color: black;
+    
+}
+.del{
+    background-color: #A294F9;
+    color: black;
+}

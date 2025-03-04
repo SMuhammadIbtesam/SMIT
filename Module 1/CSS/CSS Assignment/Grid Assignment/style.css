@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    margin: 0;
+}+
+.container-1{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+    grid-template-rows:  70px 70px 70px 70px 70px 70px 70px 70px 70px 70px  70px 70px;
+    gap: 20px;
+    padding: 20px;
+}
+.item{
+    background-color: blue;
+    border: 4px solid black;
+    color: rgb(43, 25, 25);
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.cont-1{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+.cont-2{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+}
+.cont-3{
+    background-color: yellow;
+    grid-column-start: 6;
+    grid-column-end: 13;
+}
+.cont-4{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+}
+.cont-5{
+    background-color: yellow;
+    grid-column-start: 5;
+    grid-column-end: 8;
+}
+.cont-6{
+    background-color: yellow;
+    grid-column-start: 8;
+    grid-column-end: 13;
+}
+.cont-7{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+.cont-8{
+    background-color: yellow;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.cont-9{
+    background-color: yellow;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+.cont-10{
+    background-color: yellow;
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+.cont-11{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+}.cont-12{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.cont-13{
+    background-color: yellow;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+.cont-14{
+    background-color: yellow;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+.cont-15{
+    background-color: yellow;
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+.cont-16{
+    background-color: yellow;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+.cont-17{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+}
+.cont-18{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.cont-19{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.cont-20{
+    background-color: yellow;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.cont-21{
+    background-color: yellow;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.cont-22{
+    background-color: yellow;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.cont-23{
+    background-color: yellow;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.cont-24{
+    background-color: yellow;
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+.cont-25{
+    background-color: yellow;
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+.cont-26{
+    background-color: yellow;
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+.cont-27{
+    background-color: yellow;
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.cont-28{
+    background-color: yellow;
+    grid-column-start: 12;
+    grid-column-end: 13;
+}
+
+
+    /* GREEN 2ND */
+
+
+.container-2{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+    grid-template-rows:  70px 70px 70px 70px 70px 70px 70px 70px 70px 70px  70px 70px;
+    gap: 20px;
+    padding: 20px;
+}
+.iteem{
+    background-color: blue;
+    border: 4px solid black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.con-1{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.con-2{
+    background-color: lightgreen;
+    grid-column-start: 2;
+    grid-column-end: 13;
+}
+.con-3{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+.con-4{
+    background-color: lightgreen;
+    grid-column-start: 3;
+    grid-column-end: 13;
+}
+.con-5{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+.con-6{
+    background-color: lightgreen;
+    grid-column-start: 4;
+    grid-column-end: 13;
+}
+.con-7{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+}
+.con-8{
+    background-color: lightgreen;
+    grid-column-start: 5;
+    grid-column-end: 13;
+}
+.con-9{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+}
+.con-10{
+    background-color: lightgreen;
+    grid-column-start: 6;
+    grid-column-end: 13;
+}
+.con-11{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 6;
+}.con-12{
+    background-color: lightgreen;
+    grid-column-start: 7;
+    grid-column-end: 13;
+}.con-13{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 7;
+}
+.con-14{
+    background-color: lightgreen;
+    grid-column-start: 8;
+    grid-column-end: 13;
+}
+.con-15{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 8;
+}.con-16{
+    background-color: lightgreen;
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+.con-17{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 9;
+}
+.con-18{
+    background-color: lightgreen;
+    grid-column-start: 10;
+    grid-column-end: 13;
+}.con-19{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 10;
+}
+.con-20{
+    background-color: lightgreen;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+.con-21{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.con-22{
+    background-color: lightgreen;
+    grid-column-start: 12;
+    grid-column-end: 13;
+}
+
+
+
+  
+
+
+
+

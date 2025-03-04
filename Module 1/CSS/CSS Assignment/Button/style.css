@@ -1,0 +1,266 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ } */
+.btn{
+    width: 140px;
+    height: 50px;
+    border: 2px solid rgb(230, 149, 250);
+    text-align: center;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 10px;
+    
+    
+}
+.btn::before{
+    content: "";
+    background-color:darkcyan;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.btn:hover{
+    color: white;
+    cursor:pointer;
+    border-radius: 10px;
+    
+}
+.btn:hover::before{
+    width: 100%;
+    border-radius: 10px;
+    transition:  1.0s ease all;
+}
+.btn-1 {
+  width: 140px;
+  height: 50px;
+  border: 2px solid rgb(230, 149, 250);
+  text-align: center;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  outline: none;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+
+.btn-1::before {
+  content: "";
+  background-color: darkcyan;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  transition: width 2.10s ease;
+}
+
+.btn-1::after {
+  content: "";
+  background-color: darkcyan;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -1;
+  transition: width 2.10s ease;
+}
+
+.btn-1:hover {
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-1:hover::before {
+  width: 50%;
+  /* border-radius: 10px; */
+}
+
+.btn-1:hover::after {
+  width: 50%;
+  /* border-radius: 10px; */
+}
+ .bttm{
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    position: relative;
+    margin-left: 40%;
+    margin-top: -55px;
+    z-index: 1; 
+    overflow: hidden;
+}
+  .bttm::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* width: 100%; */
+    height: 100%;
+    background-color: darkcyan;
+    /* /* transition:  0.5s ease all; */
+    z-index: -1; 
+  }
+  
+  .bttm::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    /* width: 100%; */
+    height: 100%;
+    background-color:  darkcyan;
+    /* /* transition: bottom 0.5s ease-in-out; */
+    z-index: -1; 
+  }
+  
+  .bttm:hover::before {
+    border-radius: 10px;
+    top: 0%;
+    transition: 1.3s ease all;
+    width: 100%;
+  }
+  
+  .bttm:hover::after {
+    border-radius: 10px;
+    bottom: 0%;
+    transition: 1.3s ease all;
+    width: 100%;
+  }
+.bttm:hover{
+    border-radius: 10px;
+}
+/* .btmm {
+  width: 140px;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 20%;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.btmm::before {
+  content: "";
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.btmm::after {
+  content: "";
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.btmm:hover {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btmm:hover::before {
+  width: 50%;
+  background-color: blueviolet;
+}
+
+.btmm:hover::after {
+  width: 50%;
+  background-color: blue;
+} */
+.btmm {
+  width: 140px;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 20%;
+  z-index: 1;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.btmm::before {
+  content: "";
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: blueviolet; */
+  transition: all 0.5s ease, transform 1.5s ease-in-out;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+
+.btmm::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: blue; */
+  transition: all 0.5s ease, transform 1.5s ease-in-out;
+  z-index: -1;
+  transform: rotate(0deg);
+}
+
+.btmm:hover {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btmm:hover::before {
+  transform: rotate(360deg);
+  background-color: blueviolet;
+  z-index: -1;
+}
+
+.btmm:hover::after {
+  transform: rotate(-360deg);
+  background-color: blue;
+  z-index: -1;
+}

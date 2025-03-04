@@ -1,0 +1,31 @@
+Div{
+    border: 2px solid black;
+    width: 450px;
+    height: 350px;
+    transition: 1.2s ease all;
+    margin-top: 11%;
+}
+img{
+    width: 450px;
+    height: 350px;
+}
+div:hover{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    rotate: 360deg;
+    border-style: double;
+
+}
+img:hover{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    rotate: 360deg;
+    /* border-style: double; */
+}
+h1{
+    text-align: center;
+    text-decoration: double;
+    background-color: slateblue;
+}

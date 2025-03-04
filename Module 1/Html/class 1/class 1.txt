@@ -1,0 +1,11 @@
+1-Practice code will be provided on github (Github ias an online repository).
+2-<!Doctype html> it indicates that weare using HTML 5.
+3-On CMD type code . to open same folder in VScode.
+4-<head> all of the additional information it will be useful for SEO.
+5-<body> all details which we will write in body tag will be display.
+6-If we talk about multiple element than it will be an element but if we talk about single thing it will be called tag.
+7-Every tag has different work.
+8-For heading <h1 to h6> different sizes.
+9-<p> ==> p tag is used for paragraph.
+10-Lorem will provide us dummy paragraph by multiplying * number it will give you same things.
+11-Comment tag will  be use for display code but dont display in browser Ctrl+/ is shortcut.

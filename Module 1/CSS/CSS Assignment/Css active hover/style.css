@@ -1,0 +1,116 @@
+body{
+    background-color: white;
+}
+table{
+   /* border: 2px solid black;  */
+    border-collapse: collapse;
+    width: 450px;
+    height: 450px;
+    align:center;
+    background-color: black;
+    margin: auto;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+p{
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    font-size:large;
+    font-weight: 400;
+}
+th{
+    /* border: 2px solid black; */ 
+    border-collapse: collapse;
+    background-color: deepskyblue;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    /* font-weight: bolder;
+    font-size: larger; */
+}
+td{
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px  10px 10px 10px;
+}
+table:hover{
+            width:500px;
+            height: 400px;
+            background-color:lightgreen;
+            color: white;
+            cursor: pointer;
+}
+.iid:active{
+         background-color: crimson;
+         color: black;
+         font-weight: bolder;
+         font-size: larger;
+         text-decoration: underline;
+}
+.id:active{
+    background-color: steelblue;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.idd:active{
+    background-color:lime;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.iiid:active{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.class:active{
+    background-color: deeppink;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.ssa:active{
+    background-color: purple;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.ddi:active{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.ddd:active{
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+.dm:active{
+    background-color:orangered ;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+th:active{
+    background-color:navy;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
